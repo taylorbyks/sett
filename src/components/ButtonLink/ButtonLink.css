@@ -1,0 +1,16 @@
+ 
+  .Button {
+    color: var(--black);
+    cursor: pointer;
+    padding: 16px 20px;
+    font-style: normal;
+    font-size: 19px;
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    transition: opacity .3s;
+  }
+  .Button:hover,
+  .Button:focus {
+    opacity: .5;
+  }
