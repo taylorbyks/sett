@@ -1,3 +1,6 @@
+div {
+    max-height: 460px;
+}
 div.Primary {
     background-color: var(--grayMedium);
     flex: start;
@@ -8,4 +11,6 @@ div.Primary {
     margin-right: 8%;
     border-radius: 10px;
     align-items: flex-start;
+    max-height: 496px;
+    
 }

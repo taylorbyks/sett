@@ -28,7 +28,7 @@ a {
 
 h2 {
   font-weight: 500;
-  
+  margin: 10px;
   color: var(--primary);
 }
 
@@ -37,7 +37,7 @@ h2.Title {
 }
 
 h4 {
-  margin: 8px;
+  margin: 10px;
   font-weight: 400;
   color: var(--primary);
 }

@@ -12,7 +12,7 @@ function Contato() {
      <div className='Primary'>
        <h2 className="Title">Contato</h2>
        <h2>Acompanhe a Sett nas Redes Socias</h2>
-       <SocialLinks style13={{  marginLeft: 10, height: 50, width: 50 }} style2={{  marginLeft: 10, height: 50, width: 50 }}/>
+       <SocialLinks style1={{  marginLeft: 10, height: 50, width: 50 }} style2={{  marginLeft: 10, height: 50, width: 50 }} style3={{  marginLeft: 10, height: 50, width: 50 }}/>
       </div>
      <Footer />
     </div>

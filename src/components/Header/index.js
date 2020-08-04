@@ -16,7 +16,7 @@ function Header(){
                 Sobre
             </ButtonLink>
 
-            <ButtonLink className="Button" to="/sobre">
+            <ButtonLink className="Button" to="/ondeestamos">
                 Onde Estamos
             </ButtonLink>
 
