@@ -1,14 +1,14 @@
 import React from 'react'
-import { SocialIcon } from 'react-social-icons'
+import { FiInstagram, FiFacebook, FiPhoneCall } from 'react-icons/fi'
 
 import './SocialLinks.css'
 
 function SocialLinks(props) {
   return (
     <div className="SocialLinks">
-      <SocialIcon url="http://facebook/" style={ props.style1 } />
-      <SocialIcon url="http://instagram/" style={ props.style2 } />
-      <SocialIcon url="http://whatsapp/" style={ props.style3 } />
+      <a className="SocialLink" href="http://facebook/"><FiFacebook size={props.size}/></a>
+      <a className="SocialLink" href="http://instagram/"><FiInstagram size={props.size}/></a>
+      <a className="SocialLink" href="http://whatsapp/"><FiPhoneCall size={props.size}/></a>
     </div>
   );
 }

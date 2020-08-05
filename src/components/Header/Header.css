@@ -27,7 +27,7 @@
     padding-left: 5%;
     padding-right: 5%;
   
-    background: var(--grayMedium);
+    background: var(--grayLight);
     border-bottom: 3px solid var(--primary);
   }
   body {

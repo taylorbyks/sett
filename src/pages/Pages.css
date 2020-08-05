@@ -2,7 +2,7 @@ div {
     max-height: 460px;
 }
 div.Primary {
-    background-color: var(--grayMedium);
+    background-color: var(--grayLight);
     flex: start;
     flex: 1;
     padding-top: 10px;
@@ -11,6 +11,6 @@ div.Primary {
     margin-right: 8%;
     border-radius: 10px;
     align-items: flex-start;
-    max-height: 496px;
+    min-height: 503px;
     
 }
