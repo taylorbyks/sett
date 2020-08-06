@@ -3,7 +3,7 @@
   }
   @media (max-width: 800px) {
     .Logo {
-      max-width: 105px;
+      max-width: 85px;
     }
   }
   
@@ -36,7 +36,7 @@
   }
   @media (max-width: 800px) {
     .Header {
-      height: 40px;
+      height: 60px;
       justify-content: center;
     }
     body {

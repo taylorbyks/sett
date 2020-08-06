@@ -14,3 +14,11 @@
   .Button:focus {
     opacity: .5;
   }
+  @media (max-width: 800px) {
+    .Button {
+      padding: 0px;
+      font-style: normal;
+      font-size: 0px;
+      
+    }
+  }

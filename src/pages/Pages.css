@@ -1,6 +1,7 @@
 div {
     max-height: 460px;
 }
+
 div.Primary {
     background-color: var(--grayLight);
     flex: start;
@@ -12,5 +13,26 @@ div.Primary {
     border-radius: 10px;
     align-items: flex-start;
     min-height: 503px;
-    
+}
+
+div.Secundary {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--grayLight);
+    box-align: center;
+    padding-top: 30px;
+}
+
+div.Box {
+    background-color: var(--grayMedium);
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 8%;
+    margin-right: 8%;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 300%;
 }

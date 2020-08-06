@@ -8,7 +8,14 @@ function Servicos() {
   return (
     <div className="Page">
      <Header />
-     <div className='Primary'>Servicos</div>
+     <div className="Primary">
+     <h2 className="Title">Serviços</h2>
+     <div className='Secundary'>
+     <div className="Box"><h4 className="Title">PPRA</h4></div>
+     <div className="Box"><h4 className="Title">PCMSO</h4></div>
+     <div className="Box"><h4 className="Title">E-Social</h4></div>
+     </div>
+     </div>
      <Footer />
     </div>
   )

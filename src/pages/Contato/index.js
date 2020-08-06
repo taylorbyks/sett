@@ -11,8 +11,12 @@ function Contato() {
      <Header />
      <div className='Primary'>
        <h2 className="Title">Contato</h2>
-       <h2>Acompanhe a Sett nas Redes Socias</h2>
+       <div className="Secundary">
+       <div className="Box">
+      <h2>Acompanhe a Sett nas Redes Socias</h2>
        <SocialLinks size={ 30 } />
+       </div>
+       </div>
        </div>
      <Footer />
     </div>
