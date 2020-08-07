@@ -40,18 +40,18 @@
   @media (max-width: 800px) {
     .Logo {
       max-width: 95px;
-      margin-right: 50px;
+      margin-left: 90%;
     }
 
     .HamburgerMenu{
-      display: inline;
       position: absolute;
       right: 75px;
+      left: 10px
     }
 
     .Header {
       height: 60px;
-      justify-content: center;
+      justify-content: flex-start;
     }
 
     body {

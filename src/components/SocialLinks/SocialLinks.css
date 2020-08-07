@@ -1,6 +1,11 @@
 div.SocialLinks {
     align-items: center;
+    justify-content: center;
 }
 a.SocialLink {
     margin: 10px;
+}
+
+.SocialLink {
+    size: 100px;
 }

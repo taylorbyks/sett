@@ -8,7 +8,9 @@ function Pagina404() {
   return (
     <div className="Page">
      <Header />
-     <div className='Primary'>404</div>
+     <div className='Primary'>
+       <h2 className="Title">404: Não Encontrada</h2>
+     </div>
      <Footer />
     </div>
   )

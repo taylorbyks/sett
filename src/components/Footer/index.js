@@ -11,7 +11,7 @@ function Footer() {
       <Link to='/'>
         <img className="LogoSmall" src={LogoGray} alt="Sett Logo Gray" />
       </Link>
-      <SocialLinks style1={{ height: 30, width: 30, marginLeft: 170 }} style2={{ height: 30, width: 30, marginLeft: 10, marginRight: 10 }} style3={{ height: 30, width: 30 }}/>
+      <SocialLinks size={15}/>
       <p>
         Sett - Segurança do Trabalho e Treinamentos<br></br>
         CNPJ: 26.230.801/0001-37<br></br>
