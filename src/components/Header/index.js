@@ -17,7 +17,7 @@ function Header(){
 
             <nav className="Header">
             
-            <HamburgerMenu
+            <HamburgerMenu className="HamburgerMenu"
                 isOpen={isOpen}
                 menuClicked={toggleButton}
                 width={25}
