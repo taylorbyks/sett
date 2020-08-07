@@ -8,7 +8,10 @@ function Sobre() {
   return (
     <div className="Page">
      <Header />
-     <div className='Primary'>Sobre</div>
+     <div className='Primary'>
+        <h2 className="Title">Sobre</h2>
+        <h2>Testetetetete</h2>
+      </div>
      <Footer />
     </div>
   )

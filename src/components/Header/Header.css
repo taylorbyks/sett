@@ -1,28 +1,11 @@
-.Logo {
+  .Logo {
     max-width: 168px;
-    
-
-  }
-  @media (max-width: 800px) {
-    .Logo {
-      max-width: 95px;
-      margin-right: 50px;
-      
-    }
-    .HamburgerMenu{
-      display: inline;
-      position: absolute;
-      right: 75px;
-    }
   }
   
-.Button {
-  padding-top: 30px;
-}
-  @media only screen and (min-width: 500px){
-.HamburgerMenu{
-  display: none;
-  }}
+  .Button {
+    padding-top: 30px;
+  }
+  
   .Header {
     width: 100%;
     height: 87px;
@@ -42,15 +25,35 @@
     background: var(--grayLight);
     border-bottom: 3px solid var(--primary);
   }
+
   body {
     --bodyPaddingTop: 100px;
     padding-top: var(--bodyPaddingTop);
   }
+  
+  @media only screen and (min-width: 500px){
+    .HamburgerMenu{
+      display: none;
+    }
+  }
+  
   @media (max-width: 800px) {
+    .Logo {
+      max-width: 95px;
+      margin-right: 50px;
+    }
+
+    .HamburgerMenu{
+      display: inline;
+      position: absolute;
+      right: 75px;
+    }
+
     .Header {
       height: 60px;
       justify-content: center;
     }
+
     body {
       --bodyPaddingTop: 40px;
       padding-top: var(--bodyPaddingTop);

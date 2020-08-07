@@ -27,41 +27,26 @@ function Header(){
                 color='var(--primary)'
                 borderRadius={0}
                 animationDuration={0.5}
-            > <ButtonLink className="Button" to='/sobre'>
-            Sobre
-        </ButtonLink>
-
-        <ButtonLink className="Button" to="/ondeestamos">
-            Onde Estamos
-        </ButtonLink>
-
-        <ButtonLink className="Button" to="/serviços">
-            Serviços
-        </ButtonLink>
-
-        <ButtonLink className="Button" to="/contato">
-            Contato
-        </ButtonLink></HamburgerMenu>
+            ></HamburgerMenu>
             
-
             <Link to='/'>
                 <img className="Logo" src={Logo} alt="Sett Logo" />
             </Link>
     
             <ButtonLink className="Button" to='/sobre'>
-                Sobre
+                <h3>Sobre</h3>
             </ButtonLink>
 
             <ButtonLink className="Button" to="/ondeestamos">
-                Onde Estamos
+                <h3>Onde Estamos</h3>
             </ButtonLink>
 
             <ButtonLink className="Button" to="/serviços">
-                Serviços
+                <h3>Serviços</h3>
             </ButtonLink>
 
             <ButtonLink className="Button" to="/contato">
-                Contato
+                <h3>Contato</h3>
             </ButtonLink>
         </nav>
     )

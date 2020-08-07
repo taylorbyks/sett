@@ -34,6 +34,7 @@ div.SecundaryC {
 div.Box {
     background-color: var(--grayMedium);
     display: flex;
+    flex-direction: column;
     padding-top: 10px;
     padding-bottom: 10px;
     margin: 2%;
