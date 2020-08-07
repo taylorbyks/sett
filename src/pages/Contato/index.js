@@ -11,10 +11,16 @@ function Contato() {
      <Header />
      <div className='Primary'>
        <h2 className="Title">Contato</h2>
-       <div className="Secundary">
+       <div className="SecundaryC">
        <div className="Box">
-      <h2>Acompanhe a Sett nas Redes Socias</h2>
-       <SocialLinks size={ 30 } />
+          <h2>Whatsapp - Janaina: 45 99925-6754</h2>
+       </div>
+       <div className="Box">
+          <h2>Email: sett.adm@hotmail.com</h2>
+       </div>
+       <div className="Box">
+        <h2>Acompanhe a Sett nas Redes Socias</h2>
+        <SocialLinks size={ 30 } />
        </div>
        </div>
        </div>
