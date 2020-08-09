@@ -31,12 +31,6 @@
     padding-top: var(--bodyPaddingTop);
   }
   
-  @media only screen and (min-width: 500px){
-    .HamburgerMenu{
-      display: none;
-    }
-  }
-  
   @media (max-width: 800px) {
     .Logo {
       max-width: 95px;

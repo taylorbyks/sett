@@ -6,6 +6,9 @@ import Slider from 'infinite-react-carousel'
 import um from '../../assets/banners/um.png'
 import dois from '../../assets/banners/dois.png'
 
+import ummobile from '../../assets/banners/ummobile.png'
+import doismobile from '../../assets/banners/doismobile.png'
+
 import '../Pages.css'
 
 function Home() {
@@ -13,12 +16,20 @@ function Home() {
     <div className="Page">
      <Header />
      <div className='Primary'>
-       <Slider dots>
+       <Slider className="Desktop" dots>
         <div>
           <img src={um}></img>
         </div>
         <div>
         <img src={dois}></img>
+        </div>
+        </Slider>
+        <Slider className="Mobile" dots>
+        <div>
+          <img src={ummobile}></img>
+        </div>
+        <div>
+        <img src={doismobile}></img>
         </div>
         </Slider>
       </div>

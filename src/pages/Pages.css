@@ -44,3 +44,17 @@ div.Box {
     height: 100%;
     width: 96%;
 }
+
+.Mobile{
+    display: none;
+    
+  }
+
+@media (max-width: 800px) {
+    .Mobile{
+      display: initial;
+    }
+    .Desktop{
+        display: none;
+    }
+  }

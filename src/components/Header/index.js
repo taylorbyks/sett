@@ -4,30 +4,13 @@ import ButtonLink from '../ButtonLink'
 
 import Logo from '../../assets/Logo.png'
 import './Header.css'
-import HamburgerMenu from 'react-hamburger-menu'
-  
-function Header(){
-    const [isOpen, setIsOpen] = useState(false)
+import HamburgerMenu from '../HamburgerMenu'
 
-    const toggleButton = useCallback(
-        () => setIsOpen(prevState => !prevState),
-        [],
-      )
+function Header(){
     return(
 
             <nav className="Header">
-            
-            <HamburgerMenu className="HamburgerMenu"
-                isOpen={isOpen}
-                menuClicked={toggleButton}
-                width={25}
-                height={15}
-                strokeWidth={2}
-                rotate={0}
-                color='var(--primary)'
-                borderRadius={0}
-                animationDuration={0.5}
-            ></HamburgerMenu>
+            <HamburgerMenu />
             
             <Link to='/'>
                 <img className="Logo" src={Logo} alt="Sett Logo" />
