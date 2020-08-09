@@ -62,10 +62,21 @@
   #checkbox-menu:checked + label span:nth-child(3){
     transform: rotate(45deg);
     top:8px;
+    
   }
 
+  .Menu{
+    display: none;
+  }
+
+  #checkbox-menu:checked ~ .Menu{
+      display: initial;
+      margin: 10%;
+
+  }
   @media only screen and (min-width: 500px){
     .HamburgerMenu{
       display: none;
     }
+    
   }

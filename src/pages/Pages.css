@@ -50,6 +50,11 @@ div.Box {
     
   }
 
+img {
+    justify-content: center;
+    align-items: center;
+}
+
 @media (max-width: 800px) {
     .Mobile{
       display: initial;
