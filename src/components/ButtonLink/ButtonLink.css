@@ -22,3 +22,33 @@
       
     }
   }
+
+  .ButtonBox {
+    color: var(--primary);
+    font-weight: 400;
+    cursor: pointer;
+    font-style: normal;
+    font-size: 15px;
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    transition: opacity .3s;
+    border-style: solid;
+    border-color: var(--primary);
+    border-radius: 7px;
+    padding: 3px;
+    border-width: 1px;
+    margin-top: 7px;
+  }
+  .ButtonBox:hover,
+  .ButtonBox:focus {
+    opacity: .5;
+  }
+  @media (max-width: 800px) {
+    .ButtonBox {
+      padding: 0px;
+      font-style: normal;
+      font-size: 0px;
+      
+    }
+  }

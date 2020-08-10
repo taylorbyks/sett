@@ -1,8 +1,9 @@
 iframe {
     margin: 16px;
+    margin-bottom: 0px;
     align-items: center;
     width: 97%;
-    height: 89%;
+    height: 95%;
     border-style: hidden;
     border-radius: 10px; 
 }

@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 
 import Home from './pages/Home';
-import Sobre from './pages/Sobre';
+import Treinamentos from './pages/Treinamentos';
 import Servicos from './pages/Servicos';
 import Contato from './pages/Contato';
 import OndeEstamos from './pages/OndeEstamos';
@@ -15,7 +15,7 @@ ReactDOM.render(
   <BrowserRouter>
   <Switch>
     <Route path="/" component={Home} exact/>
-    <Route path="/sobre" component={Sobre} />
+    <Route path="/treinamentos" component={Treinamentos} />
     <Route path="/ondeestamos" component={OndeEstamos} />
     <Route path="/serviços" component={Servicos} />
     <Route path="/contato" component={Contato} />

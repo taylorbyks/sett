@@ -3,14 +3,14 @@
 }
 @media (max-width: 800px) {
   .LogoSmall {
-    width: 70px;
-    margin-right: 20px;
+    width: 65px;
   }
   p {
-    font-size: 10px;
+    font-size: 9px;
+    align-items: flex-end;
   }
   .SocialFooter {
-    
+    padding-right: 40px;
   }
 }
 
@@ -20,7 +20,6 @@ p {
 }
 
 .SocialFooter {
-  
   padding-left: 30px;
   padding-right: 40px;
 }
@@ -29,7 +28,7 @@ p {
   width: 100%;
   height: 60px;
   z-index: 100;
-  
+  position: fixed;
   bottom:0;
 
   display: flex;

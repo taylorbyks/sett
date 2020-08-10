@@ -3,6 +3,10 @@
   font-family: 'Roboto', sans-serif;
 }
 
+::-webkit-scrollbar {
+  width: 0px;
+}
+
 :root {
   --primary: #00895B;
   --secundary: #D47C00;
@@ -43,6 +47,7 @@ h2.Title {
 }
 
 h4 {
+  text-align: center;
   margin: 10px;
   font-weight: 400;
   color: var(--black);

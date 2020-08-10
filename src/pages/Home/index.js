@@ -25,13 +25,17 @@ function Home() {
         </div>
         </Slider>
         <Slider className="Mobile" dots>
-        <div>
+        <div className="Img">
           <img src={ummobile}></img>
         </div>
-        <div>
+        <div className="Img">
         <img src={doismobile}></img>
         </div>
         </Slider>
+        <div className="Box">
+        <h2 className="Title">Sobre a SETT</h2>
+        <h2>A SETT é uma empresa que atua no Paraná desde 2016</h2>
+        </div>
       </div>
      <Footer />
     </div>

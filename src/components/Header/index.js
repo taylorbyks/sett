@@ -16,8 +16,8 @@ function Header(){
                 <img className="Logo" src={Logo} alt="Sett Logo" />
             </Link>
     
-            <ButtonLink className="Button" to='/sobre'>
-                <h3>Sobre</h3>
+            <ButtonLink className="Button" to='/treinamentos'>
+                <h3>Treinamentos</h3>
             </ButtonLink>
 
             <ButtonLink className="Button" to="/ondeestamos">
