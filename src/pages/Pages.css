@@ -59,7 +59,8 @@ div.Box {
     }
     div.Secundary {
       flex-direction: column;
-  }}
+  }
+}
 
   img {
     border-radius: 10px;

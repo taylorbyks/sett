@@ -20,6 +20,7 @@ p {
 }
 
 .SocialFooter {
+  align-items: center;
   justify-content: center;
 }
 
@@ -44,22 +45,37 @@ body {
   --bodyPaddingTop: 94px;
   padding-top: var(--bodyPaddingTop);
 }
+
+div.SocialLinks {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
 @media (max-width: 800px) {
   .Footer {
     height: 65px;
-    justify-content: center;
-    bottom:0;
   }
   .LogoSmall {
     width: 70px;
-    margin-right: 50px;
+    
   }
   p {
     font-size: 11px;
+   padding-left: 10px;
     
   }
   body {
     --bodyPaddingTop: 70px;
     padding-top: var(--bodyPaddingTop);
   }
+  div.SocialLinks {
+    position: relative;
+    
+    
+  }
 }
+

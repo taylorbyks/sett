@@ -58,3 +58,9 @@ h4.Title {
   font-weight: 600;
   color: var(--primary);
 }
+
+@media (max-width: 800px) {
+  h2 {
+    font-size: 19px;
+  }
+}
