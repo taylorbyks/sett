@@ -60,6 +60,9 @@ div.Box {
     div.Secundary {
       flex-direction: column;
   }
+  div.Primary {
+    padding-bottom: 18%
+  }
 }
 
   img {
