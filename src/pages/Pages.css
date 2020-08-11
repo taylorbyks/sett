@@ -57,7 +57,9 @@ div.Box {
     .Desktop{
         display: none;
     }
-  }
+    div.Secundary {
+      flex-direction: column;
+  }}
 
   img {
     border-radius: 10px;

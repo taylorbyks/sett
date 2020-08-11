@@ -16,9 +16,13 @@
   }
   @media (max-width: 800px) {
     .Button {
+      display: none;
+      
+    }
+    .HamMenu {
       padding: 0px;
       font-style: normal;
-      font-size: 0px;
+      font-size: 14px;
       
     }
   }

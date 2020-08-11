@@ -30,17 +30,21 @@
     --bodyPaddingTop: 100px;
     padding-top: var(--bodyPaddingTop);
   }
+  .HamburgerMenu{
+    display: none;
+  }
   
   @media (max-width: 800px) {
     .Logo {
+      position: absolute;
+      top: 7px;
+      left: 36%;
       max-width: 95px;
-      margin-left: 90%;
     }
 
     .HamburgerMenu{
-      position: absolute;
-      right: 75px;
-      left: 10px
+      display: inline;
+      padding-bottom: 15%;
     }
 
     .Header {
