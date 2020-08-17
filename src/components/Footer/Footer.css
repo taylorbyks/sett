@@ -1,22 +1,5 @@
 .LogoSmall {
-  max-width: 100px;
-}
-@media (max-width: 800px) {
-  .LogoSmall {
-    width: 65px;
-  }
-  p {
-    font-size: 9px;
-    align-items: flex-end;
-  }
-  .SocialFooter {
-    padding-right: 40px;
-  }
-}
-
-p {
-  font-size: 13px;
-  color: var(--blackLighter);
+  max-width: 70px;
 }
 
 .SocialFooter {
@@ -45,6 +28,12 @@ p {
   background: var(--grayLight);
   border-top: 3px solid var(--secundary);
 }
+
+p {
+  font-size: 13px;
+  color: var(--blackLighter);
+}
+
 body {
   --bodyPaddingTop: 94px;
   padding-top: var(--bodyPaddingTop);
@@ -54,21 +43,37 @@ body {
   .Footer {
     height: 65px;
   }
+
   .LogoSmall {
-    width: 70px;
+    width: 50px;
     
   }
+
   p {
     font-size: 11px;
    padding-left: 10px;
     
   }
+
   body {
     --bodyPaddingTop: 70px;
     padding-top: var(--bodyPaddingTop);
   }
+
   div.SocialLinks {
     position: relative;
   }
-}
 
+  .LogoSmall {
+    width: 65px;
+  }
+
+  p {
+    font-size: 9px;
+    align-items: flex-end;
+  }
+
+  .SocialFooter {
+    padding-right: 40px;
+  }
+}

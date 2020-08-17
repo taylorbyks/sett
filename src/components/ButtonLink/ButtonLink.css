@@ -1,4 +1,18 @@
- 
+.ButtonOrganic {
+  color: var(--black);
+  cursor: pointer;
+  font-style: normal;
+  font-size: 15px;
+  outline: none;
+  text-decoration: none;
+  transition: opacity .3s;
+  
+}
+.ButtonOrganic:hover,
+.ButtonOrganic:focus {
+  opacity: .9;
+}
+
   .Button {
     color: var(--black);
     cursor: pointer;
