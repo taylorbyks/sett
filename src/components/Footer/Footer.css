@@ -49,19 +49,13 @@ body {
     
   }
 
-  p {
-    font-size: 11px;
-   padding-left: 10px;
-    
-  }
-
   body {
     --bodyPaddingTop: 70px;
     padding-top: var(--bodyPaddingTop);
   }
 
   div.SocialLinks {
-    position: relative;
+    
   }
 
   .LogoSmall {
@@ -69,8 +63,8 @@ body {
   }
 
   p {
-    font-size: 9px;
-    align-items: flex-end;
+    font-size: 8px;
+    width: 80%;
   }
 
   .SocialFooter {

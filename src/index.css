@@ -12,7 +12,7 @@
   --secundary: #D47C00;
   --black: #000000;
   --blackLighter: #353434;
-  --grayLight: #faf8f8;
+  --grayLight: #f8f8f8;
   --grayMedium: #f1f0f0; 
   --white: #FFFFFF;
   --frontEnd: #6BD1FF;
@@ -69,6 +69,6 @@ h5{
     font-size: 19px;
   }
   h5 {
-    font-size: 6px
+    font-size: 7px
   }
 }
