@@ -5,68 +5,71 @@
   font-size: 15px;
   outline: none;
   text-decoration: none;
-  transition: opacity .3s;
-  
+  transition: opacity 0.3s;
 }
 .ButtonOrganic:hover,
 .ButtonOrganic:focus {
-  opacity: .9;
+  opacity: 0.9;
 }
 
+.Button {
+  color: var(--black);
+  cursor: pointer;
+  padding: 16px 20px;
+  font-style: normal;
+  font-size: 19px;
+  outline: none;
+  text-decoration: none;
+  display: inline-block;
+  transition: opacity 0.3s;
+}
+.Button:hover,
+.Button:focus {
+  opacity: 0.5;
+}
+@media (max-width: 800px) {
   .Button {
+    display: none;
+  }
+  .HamMenu {
+    padding: 0px;
+    font-style: normal;
+    font-size: 14px;
+  }
+  .ButtonBox {
+    padding: 0px;
+    font-style: normal;
+    font-size: 0px;
+  }
+  .ButtonOrganic {
     color: var(--black);
     cursor: pointer;
-    padding: 16px 20px;
     font-style: normal;
-    font-size: 19px;
+    font-size: 9px;
     outline: none;
     text-decoration: none;
-    display: inline-block;
-    transition: opacity .3s;
+    transition: opacity 0.3s;
   }
-  .Button:hover,
-  .Button:focus {
-    opacity: .5;
-  }
-  @media (max-width: 800px) {
-    .Button {
-      display: none;
-      
-    }
-    .HamMenu {
-      padding: 0px;
-      font-style: normal;
-      font-size: 14px;
-      
-    }
-  }
+}
 
-  .ButtonBox {
-    color: var(--primary);
-    font-weight: 400;
-    cursor: pointer;
-    font-style: normal;
-    font-size: 15px;
-    outline: none;
-    text-decoration: none;
-    display: inline-block;
-    transition: opacity .3s;
-    border-style: solid;
-    border-color: var(--primary);
-    border-radius: 7px;
-    padding: 3px;
-    border-width: 1px;
-    margin-top: 7px;
-  }
-  .ButtonBox:hover,
-  .ButtonBox:focus {
-    opacity: .5;
-  }
-  @media (max-width: 800px) {
-    .ButtonBox {
-      padding: 0px;
-      font-style: normal;
-      font-size: 0px;
-      
-    }
-  }
+.ButtonBox {
+  color: var(--primary);
+  font-weight: 400;
+  cursor: pointer;
+  font-style: normal;
+  font-size: 15px;
+  outline: none;
+  text-decoration: none;
+  display: inline-block;
+  transition: opacity 0.3s;
+  border-style: solid;
+  border-color: var(--primary);
+  border-radius: 7px;
+  padding: 3px;
+  border-width: 1px;
+  margin-top: 7px;
+}
+.ButtonBox:hover,
+.ButtonBox:focus {
+  opacity: 0.5;
+}
