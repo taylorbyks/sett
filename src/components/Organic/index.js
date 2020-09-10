@@ -7,7 +7,6 @@ import ButtonLink from '../ButtonLink';
 function Organic() {
   return (
     <ButtonLink className="ButtonOrganic" to='/'>
-      <!--<h5>Desenvolvido com ReactJS pela <img className="Organic" src={OrganicLogo} />Organic</h5>-->
       <h5>Desesnvolvido por Taylor Byk Schinvelski</h5>
     </ButtonLink>
   );
