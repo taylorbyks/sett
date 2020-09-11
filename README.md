@@ -1,4 +1,4 @@
-##Site web SETT - Segurança do Trabalho<br />
+# Site web SETT - Segurança do Trabalho
 No ar em: https://sett.seg.br/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
